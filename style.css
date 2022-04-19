@@ -75,7 +75,7 @@ li{
 }
 /*=================== Home Section =======================*/
 #Home{
-    padding: 1rem 0;
+    padding: 1rem 10px;
     text-align: center;
 }
 #Home h2{
@@ -306,7 +306,8 @@ footer{
         padding: 4px 0;
     }
     .home_img{
-        height: 50vh;
+        display: none;
+        height: 25vh;
         margin-top: 2rem;
     }
     .container{
@@ -317,7 +318,10 @@ footer{
         width: 90%;
     }
     .about_vedio{
-        width: 90%;
+        position: absolute;
+        top: 32vh;
+        left: 2vw;
+        width: 96%;
     }
     .title{
         font-size: 14px;
@@ -335,7 +339,7 @@ footer{
         padding: 10px 15px;
     }
     #vedio{
-        height: 23vh;
+        height: 20vh;
     }
 
     #progressBar{
