@@ -306,6 +306,7 @@ footer{
         padding: 4px 0;
     }
     .home_img{
+	visibility: hidden;
         height: 24vh;
         margin-top: 2rem;
     }
